@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Library Search</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+        }
+        p.subtitle {
+            text-align: center;
+            color: #7f8c8d;
+            margin-bottom: 30px;
+        }
+        .search-box {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 30px;
+        }
+        input {
+            flex: 1;
+            padding: 12px;
+            font-size: 16px;
+            border: 2px solid #bdc3c7;
+            border-radius: 6px;
+        }
+        button {
+            padding: 12px 24px;
+            background-color: #2980b9;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #2471a3;
+        }
+        .result {
+            background: white;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            border-left: 5px solid #2980b9;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .result h3 {
+            margin: 0 0 5px 0;
+            color: #2c3e50;
+        }
+        .result .author {
+            color: #7f8c8d;
+            font-style: italic;
+            margin-bottom: 8px;
+        }
+        .result .subject {
+            display: inline-block;
+            background: #eaf4fb;
+            color: #2980b9;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 13px;
+            margin-bottom: 8px;
+        }
+        .result p {
+            color: #555;
+            margin: 0;
+        }
+        #status {
+            text-align: center;
+            color: #7f8c8d;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>📚 Semantic Library Search</h1>
+    <p class="subtitle">Search by meaning, not just keywords</p>
+
+    <div class="search-box">
+        <input type="text" id="query" placeholder="e.g. books about space and the universe..." />
+        <button onclick="search()">Search</button>
+    </div>
+
+    <div id="status"></div>
+    <div id="results"></div>
+
+    <script>
+        document.getElementById('query').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') search();
+        });
+
+        async function search() {
+            const query = document.getElementById('query').value;
+            if (!query) return;
+
+            document.getElementById('status').textContent = 'Searching...';
+            document.getElementById('results').innerHTML = '';
+
+            try {
+                const response = await fetch('http://127.0.0.1:8000/search', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ query: query, num_results: 3 })
+                });
+
+                const data = await response.json();
+                document.getElementById('status').textContent = '';
+
+                data.results.forEach(book => {
+                    document.getElementById('results').innerHTML += `
+                        <div class="result">
+                            <h3>${book.title}</h3>
+                            <div class="author">by ${book.author}</div>
+                            <span class="subject">${book.subject}</span>
+                            <p>${book.description}</p>
+                        </div>
+                    `;
+                });
+            } catch (error) {
+                document.getElementById('status').textContent = 'Error connecting to search engine. Make sure the API is running!';
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+# 📚 Semantic Library Search
+
+An AI-powered library search engine that finds books by meaning, not just keywords. Built as a sample project for a AI/ML.
+
+## What Is Semantic Search?
+
+Traditional library search looks for exact keyword matches. If you search for "books about the cosmos" you might miss books that use the word "universe" or "astronomy" instead.
+
+Semantic search understands *meaning*. It knows that "cosmos", "universe", "space", and "astronomy" are all related concepts — and returns relevant results even when the exact words don't match.
+
+## How It Works
+
+1. **Catalog Loading** — Book metadata is loaded from a CSV catalog file
+2. **Embedding Generation** — Each book description is converted into a mathematical "meaning fingerprint" using a Sentence Transformer AI model
+3. **Vector Indexing** — These fingerprints are stored in a FAISS index for fast similarity searching
+4. **Query Processing** — When a user searches, their query is converted into a fingerprint and compared against all books in the index
+5. **Results Returned** — The closest matching books are returned ranked by semantic similarity
+
+## Technologies Used
+
+- **Python 3.14** — Core programming language
+- **Sentence Transformers** — AI model for generating semantic embeddings (all-MiniLM-L6-v2)
+- **FAISS** — Facebook AI Similarity Search for fast vector search
+- **FastAPI** — Modern Python web framework for the search API
+- **Uvicorn** — ASGI server for running the API
+- **Pandas** — Data manipulation and catalog management
+- **HTML/CSS/JavaScript** — Frontend search interface
+
+## Project Structure
+
+```
+semantic-library-search/
+├── catalog.csv              # Library catalog with 20 books
+├── build_index.py           # Builds the AI search index
+├── search.py                # Command line search interface
+├── app.py                   # FastAPI search API
+├── index.html               # Web search interface
+├── library.index            # Generated FAISS vector index
+├── catalog_processed.csv    # Processed catalog data
+└── embeddings.pkl           # Saved book embeddings
+```
+
+## Getting Started
+
+### Prerequisites
+- Python 3.9 or higher
+- pip package manager
+
+### Installation
+
+1. Clone the repository:
+```
+git clone https://github.com/angelacolmen/semantic-library-search.git
+cd semantic-library-search
+```
+
+2. Create and activate a virtual environment:
+```
+python -m venv venv
+venv\Scripts\activate  # Windows
+source venv/bin/activate  # Mac/Linux
+```
+
+3. Install dependencies:
+```
+pip install sentence-transformers faiss-cpu pandas fastapi uvicorn python-multipart
+```
+
+4. Build the search index:
+```
+python build_index.py
+```
+
+5. Start the API:
+```
+uvicorn app:app --reload
+```
+
+6. Open your browser and go to:
+```
+http://127.0.0.1:8000
+```
+
+## Example Searches
+
+Try these searches to see semantic search in action:
+
+- `books about space and the universe`
+- `stories about race and justice in America`
+- `women who made a difference in science`
+- `how governments control people`
+- `survival against the odds`
+
+Notice how results appear even when the exact search words don't appear in the book titles or descriptions!
+
+## Library Science Applications
+
+This project demonstrates several real world library applications:
+
+- **Reference Services** — Patrons can describe their research need in plain language and receive relevant resource recommendations
+- **Collection Development** — Identify gaps in a collection by searching for topics and seeing what's missing
+- **Catalog Enhancement** — Improve discoverability of items that may be poorly described in traditional catalog records
+- **Accessibility** — Helps patrons who don't know the exact terminology used in library classification systems
+
+## Future Enhancements
+
+- Connect to a live library catalog via API (e.g. WorldCat, Open Library)
+- Add Library of Congress Subject Heading suggestions
+- Implement user feedback to improve search results over time
+- Scale to larger collections using cloud based vector databases
+- Add multilingual search support
+
+## Author
+
+Built by Angela Colmenares as a sample project for AI/ML.
