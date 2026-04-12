@@ -1,7 +1,5 @@
 sentence-transformers
 faiss-cpu
 pandas
-fastapi
-uvicorn
-python-multipart
+gradio
 numpy
