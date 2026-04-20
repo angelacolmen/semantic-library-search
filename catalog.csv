@@ -19,3 +19,183 @@ id,title,author,subject,description
 18,Contact,Carl Sagan,Fiction,A scientist receives a mysterious signal from deep space and must decide how humanity should respond
 19,The Sixth Extinction,Elizabeth Kolbert,Science,An investigation into how human activity is causing a mass extinction of species on Earth
 20,Between the World and Me,Ta-Nehisi Coates,History,A father's letter to his son about the history and reality of being Black in America
+21,The Innovators,Walter Isaacson,Technology,The story of the pioneers who created the computer and the internet
+22,Educated,Tara Westover,Memoir,A woman who grew up in a survivalist family teaches herself enough to escape and earn a Cambridge PhD
+23,Thinking Fast and Slow,Daniel Kahneman,Psychology,How two systems of thinking shape our judgments and decisions
+24,The Gene,Siddhartha Mukherjee,Science,An intimate history of the gene and how it shapes human life and identity
+25,Dune,Frank Herbert,Fiction,A young nobleman navigates politics religion and ecology on a desert planet
+26,1984,George Orwell,Fiction,A man living under a totalitarian surveillance state begins to question the regime
+27,Brave New World,Aldous Huxley,Fiction,A future society controls its citizens through pleasure and conditioning rather than fear
+28,The Handmaid's Tale,Margaret Atwood,Fiction,A woman lives as a reproductive slave in a theocratic authoritarian state
+29,Invisible Man,Ralph Ellison,Fiction,A Black man navigates racism and invisibility in mid-twentieth century America
+30,Beloved,Toni Morrison,Fiction,A formerly enslaved woman is haunted by the ghost of her dead daughter in post-Civil War America
+31,The Power of Now,Eckhart Tolle,Philosophy,A guide to spiritual enlightenment through presence and mindfulness
+32,Man's Search for Meaning,Viktor Frankl,Philosophy,A psychiatrist survives the Holocaust and finds meaning through suffering
+33,The Republic,Plato,Philosophy,Socrates explores justice the ideal state and the nature of the soul
+34,Meditations,Marcus Aurelius,Philosophy,Personal writings of a Roman emperor on Stoic philosophy and self-improvement
+35,The Tao Te Ching,Lao Tzu,Philosophy,Ancient Chinese wisdom on living in harmony with the natural order
+36,Superintelligence,Nick Bostrom,Technology,An examination of what happens when machine intelligence surpasses human intelligence
+37,The Age of Surveillance Capitalism,Shoshana Zuboff,Technology,How tech companies harvest human experience as raw material for profit
+38,Weapons of Math Destruction,Cathy O'Neil,Technology,How big data algorithms increase inequality and threaten democracy
+39,Atlas of AI,Kate Crawford,Technology,A material and political investigation into the true costs of artificial intelligence
+40,The Alignment Problem,Brian Christian,Technology,Why it is so hard to make AI systems do what we actually want them to do
+41,Life 3.0,Max Tegmark,Technology,What artificial intelligence means for the future of life and human civilization
+42,Human Compatible,Stuart Russell,Technology,How to build AI systems that are provably beneficial to humanity
+43,The Coming Wave,Mustafa Suleyman,Technology,How AI and synthetic biology will reshape civilization in the coming decade
+44,Prediction Machines,Ajay Agrawal,Technology,How cheap prediction from AI will transform business and the economy
+45,The Shallows,Nicholas Carr,Technology,How the internet is physically changing the structure of the human brain
+46,The Information,James Gleick,Technology,A history of information from African drums to the internet age
+47,Code,Charles Petzold,Technology,A step by step explanation of how computers work from first principles
+48,The Pragmatic Programmer,David Thomas,Technology,Essential wisdom for software developers on writing better code
+49,Algorithms to Live By,Brian Christian,Technology,How computer algorithms can be applied to everyday human decision making
+50,The Master Algorithm,Pedro Domingos,Technology,The quest for the ultimate learning machine that can derive all knowledge from data
+51,Race After Technology,Ruha Benjamin,Technology,How seemingly neutral technologies encode and reproduce racial inequality
+52,Automating Inequality,Virginia Eubanks,Technology,How high-tech tools profile police and punish the poor in America
+53,Data Feminism,Catherine D'Ignazio,Technology,How feminist thinking can transform the way we collect analyze and use data
+54,The Filter Bubble,Eli Pariser,Technology,How personalized internet algorithms are isolating us from new ideas and information
+55,Technically Wrong,Sara Wachter-Boettcher,Technology,How the tech industry's lack of diversity creates products that exclude and harm people
+56,The Catalog of Everything,Angela Carter,Library Science,A fictional exploration of classification systems and the hidden order of knowledge
+57,Everything Is Miscellaneous,David Weinberger,Library Science,How the digital age is destroying old systems of categorization and creating new ones
+58,The Library Book,Susan Orlean,Library Science,An investigation into the 1986 Los Angeles Public Library fire and a love letter to libraries
+59,This Is What a Librarian Looks Like,Kyle Cassidy,Library Science,Portraits and stories of librarians across America and the communities they serve
+60,The Atlas of New Librarianship,R. David Lankes,Library Science,A manifesto for a new kind of librarianship centered on knowledge creation and community
+61,Metadata,Jeffrey Pomerantz,Library Science,A clear introduction to metadata and why it matters in the digital age
+62,The Discipline of Organizing,Robert Glushko,Library Science,A unified framework for understanding how information gets organized across many domains
+63,Introduction to Information Retrieval,Christopher Manning,Library Science,A comprehensive textbook on how search engines and information retrieval systems work
+64,The Indexer's Guide,Hans Wellisch,Library Science,A practical handbook on creating indexes for books and documents
+65,Archives and the Digital Library,William Graves III,Library Science,How digital technology is transforming archival practice and access to historical collections
+66,The Demon-Haunted World,Carl Sagan,Science,A defense of scientific thinking and skepticism against superstition and pseudoscience
+67,The Structure of Scientific Revolutions,Thomas Kuhn,Science,How science advances through paradigm shifts rather than gradual accumulation of facts
+68,The Double Helix,James Watson,Science,A personal account of the discovery of the structure of DNA
+69,The Elegant Universe,Brian Greene,Science,An introduction to string theory and the quest for a unified theory of everything
+70,The Emperor of All Maladies,Siddhartha Mukherjee,Science,A biography of cancer tracing its history from ancient times to modern treatment
+71,Being Mortal,Atul Gawande,Science,How modern medicine fails dying patients and what a better approach to death looks like
+72,The Body,Bill Bryson,Science,A tour of the human body exploring how it works and what can go wrong
+73,Entangled Life,Merlin Sheldrake,Science,How fungi make worlds communicate and shape life on Earth
+74,The Hidden Life of Trees,Peter Wohlleben,Science,How trees communicate form communities and support each other through underground networks
+75,Other Minds,Peter Godfrey-Smith,Science,A philosopher dives with octopuses to explore the origins of consciousness and mind
+76,The Wretched of the Earth,Frantz Fanon,Social Justice,A psychiatric and political analysis of colonialism and the violence of decolonization
+77,Pedagogy of the Oppressed,Paulo Freire,Social Justice,A foundational text on education as a tool for liberation rather than oppression
+78,The Autobiography of Malcolm X,Malcolm X,Social Justice,The life story of one of America's most influential and controversial civil rights leaders
+79,I Know Why the Caged Bird Sings,Maya Angelou,Memoir,A poet's account of her childhood trauma resilience and coming of age in the American South
+80,The House on Mango Street,Sandra Cisneros,Fiction,A young Latina girl grows up in a Chicago neighborhood and dreams of a better life
+81,Their Eyes Were Watching God,Zora Neale Hurston,Fiction,A Black woman in the rural South searches for love identity and independence
+82,Things Fall Apart,Chinua Achebe,Fiction,The story of an Igbo community in Nigeria confronting the arrival of European colonialism
+83,One Hundred Years of Solitude,Gabriel Garcia Marquez,Fiction,Seven generations of the Buendia family in the mythical town of Macondo in Latin America
+84,The Alchemist,Paulo Coelho,Fiction,A shepherd boy travels from Spain to Egypt in search of treasure and discovers his destiny
+85,Crime and Punishment,Fyodor Dostoevsky,Fiction,A student murders a pawnbroker and wrestles with guilt conscience and redemption
+86,The Brothers Karamazov,Fyodor Dostoevsky,Fiction,Three brothers struggle with faith doubt morality and the murder of their father
+87,War and Peace,Leo Tolstoy,Fiction,Russian aristocratic families navigate love loss and the Napoleonic invasion of Russia
+88,Middlemarch,George Eliot,Fiction,The lives and ambitions of people in a provincial English town in the early nineteenth century
+89,Jane Eyre,Charlotte Bronte,Fiction,An orphaned governess falls in love with her brooding employer while maintaining her moral independence
+90,Pride and Prejudice,Jane Austen,Fiction,A witty young woman navigates marriage society and her own prejudices in Regency England
+91,How to Be an Antiracist,Ibram X. Kendi,Social Justice,A framework for understanding and actively opposing racism in all its forms
+92,White Fragility,Robin DiAngelo,Social Justice,Why white people have such difficulty discussing racism and what to do about it
+93,Caste,Isabel Wilkerson,Social Justice,An examination of the unspoken caste system that has shaped America for centuries
+94,The 1619 Project,Nikole Hannah-Jones,History,A reframing of American history placing the consequences of slavery at the center of the national narrative
+95,Stamped from the Beginning,Ibram X. Kendi,History,A definitive history of racist ideas in America from the colonial era to the present
+96,The Half Has Never Been Told,Edward Baptist,History,How slavery built the modern American economy through systematic torture and exploitation
+97,Four Hundred Souls,Ibram X. Kendi,History,A chorus of voices telling the four-hundred-year history of African Americans
+98,The Sum of Us,Heather McGhee,Social Justice,How racism costs everyone in America and what we can gain by building a more equitable society
+99,Poverty by America,Matthew Desmond,Social Justice,Why poverty persists in the richest country on earth and what we could do to end it
+100,Evicted,Matthew Desmond,Social Justice,How eviction drives poverty and inequality in American cities through the stories of eight families
+101,The Uninhabitable Earth,David Wallace-Wells,Science,A vivid portrait of the catastrophic effects of climate change if emissions are not reduced
+102,A Field Guide to Climate Anxiety,Sarah Jaquette Ray,Science,How to stay grounded and take action in the face of the climate crisis
+103,The New Climate Economy,Global Commission,Science,How bold climate action can deliver economic growth and a better world
+104,Braiding Sweetgrass,Robin Wall Kimmerer,Science,A botanist weaves together indigenous wisdom and scientific knowledge about plants and the natural world
+105,Silent Spring,Rachel Carson,Science,The book that launched the modern environmental movement by exposing the dangers of pesticides
+106,The Overstory,Richard Powers,Fiction,Nine Americans whose lives are intertwined with trees come together to save the world's forests
+107,Flight Behavior,Barbara Kingsolver,Fiction,A woman discovers millions of monarch butterflies wintering in her Tennessee farm in a sign of climate disruption
+108,The Ministry for the Future,Kim Stanley Robinson,Fiction,A near-future novel about the global effort to address climate change through politics economics and direct action
+109,Parable of the Sower,Octavia Butler,Fiction,A young Black woman survives a climate-ravaged America and builds a new community based on her own philosophy
+110,Station Eleven,Emily St. John Mandel,Fiction,A flu pandemic collapses civilization and a traveling theater company keeps art alive in the aftermath
+111,The Road,Cormac McCarthy,Fiction,A father and son travel through a post-apocalyptic America struggling to survive and maintain their humanity
+112,Never Let Me Go,Kazuo Ishiguro,Fiction,Students at an English boarding school slowly discover the horrifying purpose for which they were created
+113,The Remains of the Day,Kazuo Ishiguro,Fiction,An English butler reflects on a life of service and the opportunities for love and dignity he sacrificed
+114,Pachinko,Min Jin Lee,Fiction,Four generations of a Korean family navigate discrimination identity and survival in Japan
+115,The Kite Runner,Khaled Hosseini,Fiction,A man returns to Afghanistan to make amends for a childhood betrayal of his closest friend
+116,A Thousand Splendid Suns,Khaled Hosseini,Fiction,Two Afghan women from different generations find strength in friendship under Taliban rule
+117,The God of Small Things,Arundhati Roy,Fiction,Twins in Kerala India are shaped by the love laws that determine who should be loved and how
+118,Americanah,Chimamanda Ngozi Adichie,Fiction,A young Nigerian woman navigates race identity and love in America and back home in Lagos
+119,Half of a Yellow Sun,Chimamanda Ngozi Adichie,Fiction,The Nigerian Civil War and the Biafran struggle for independence seen through three characters' lives
+120,Purple Hibiscus,Chimamanda Ngozi Adichie,Fiction,A teenage girl in Nigeria navigates a devout and abusive father and discovers the power of freedom
+121,The Anatomy of Fascism,Robert Paxton,History,A comparative analysis of fascist movements and regimes across Europe in the twentieth century
+122,How Democracies Die,Steven Levitsky,History,How elected leaders dismantle democratic institutions from within using the tools of democracy itself
+123,Tyranny of the Minority,Steven Levitsky,History,How America's political institutions have been captured by a minority and what can be done about it
+124,The Origins of Totalitarianism,Hannah Arendt,History,A landmark analysis of Nazism and Stalinism and the conditions that give rise to totalitarian regimes
+125,On Tyranny,Timothy Snyder,History,Twenty lessons from the twentieth century on how to resist authoritarian rule
+126,The Federalist Papers,Alexander Hamilton,History,The foundational arguments for the ratification of the United States Constitution
+127,Democracy in America,Alexis de Tocqueville,History,A French observer's analysis of American democracy and its strengths and dangers
+128,The Prince,Niccolo Machiavelli,Philosophy,A frank guide to acquiring and maintaining political power for rulers
+129,Leviathan,Thomas Hobbes,Philosophy,An argument for a strong sovereign state as the only solution to the chaos of human nature
+130,The Social Contract,Jean-Jacques Rousseau,Philosophy,The argument that legitimate political authority comes from a contract among the people
+131,The Uninhabitable Office,Anne Helen Petersen,Social Justice,How modern work culture has broken millennials and what the future of work could look like
+132,Bullshit Jobs,David Graeber,Social Justice,Why so many modern jobs feel pointless and what this means for society
+133,Nickel and Dimed,Barbara Ehrenreich,Social Justice,An undercover investigation into the reality of low-wage work in America
+134,Strangers in Their Own Land,Arlie Hochschild,Social Justice,A sociologist spends five years with Louisiana Tea Party supporters to understand their worldview
+135,Hillbilly Elegy,J.D. Vance,Memoir,A memoir of growing up in the Rust Belt and the struggles of the white working class in America
+136,Educated,Tara Westover,Memoir,A woman escapes her survivalist family and earns a Cambridge PhD through self-education
+137,The Glass Castle,Jeannette Walls,Memoir,A journalist recounts her chaotic nomadic childhood with eccentric and neglectful parents
+138,When Breath Becomes Air,Paul Kalanithi,Memoir,A neurosurgeon faces terminal cancer and searches for what makes a life worth living
+139,The Year of Magical Thinking,Joan Didion,Memoir,A writer processes the sudden death of her husband and the grief that follows
+140,Crying in H Mart,Michelle Zauner,Memoir,A musician grieves the death of her Korean mother and reconnects with her cultural identity through food
+141,Know My Name,Chanel Miller,Memoir,The survivor of a sexual assault speaks in her own words about identity healing and justice
+142,The Sixth Man,Andre Iguodala,Memoir,An NBA champion reflects on race identity leadership and life beyond basketball
+143,Born a Crime,Trevor Noah,Memoir,The comedian's account of growing up mixed-race in apartheid and post-apartheid South Africa
+144,Long Walk to Freedom,Nelson Mandela,Memoir,The autobiography of South Africa's first Black president and his twenty-seven years in prison
+145,I Am Malala,Malala Yousafzai,Memoir,The story of a Pakistani girl who defied the Taliban to fight for girls' education and was shot for it
+146,The Lean Startup,Eric Ries,Business,How startups can use continuous innovation and rapid experimentation to build successful businesses
+147,Zero to One,Peter Thiel,Business,Notes on how to build companies that create new things rather than copying what already exists
+148,Thinking in Systems,Donella Meadows,Business,A primer on systems thinking and how to understand the complex interconnected world we live in
+149,The Fifth Discipline,Peter Senge,Business,How organizations can become learning organizations capable of adapting and thriving
+150,Good to Great,Jim Collins,Business,Why some companies make the leap to greatness and others don't based on a five-year research study
+151,The Phoenix Project,Gene Kim,Technology,A novel about IT DevOps and how a struggling technology department saves its company
+152,Clean Code,Robert Martin,Technology,A handbook of agile software craftsmanship and best practices for writing readable maintainable code
+153,Designing Data-Intensive Applications,Martin Kleppmann,Technology,The principles behind reliable scalable and maintainable data systems
+154,The Art of Invisibility,Kevin Mitnick,Technology,The world's most famous hacker teaches how to be safe in the age of Big Brother and big data
+155,Broad Band,Claire L. Evans,Technology,The untold story of the women who made the internet
+156,The Dream Machine,M. Mitchell Waldrop,Technology,The biography of J.C.R. Licklider the visionary who dreamed up the personal computer and the internet
+157,Hackers,Steven Levy,Technology,A history of the hacker ethic and the people who created the personal computer revolution
+158,The Innovator's Dilemma,Clayton Christensen,Business,Why great companies fail when faced with disruptive technologies and how to survive disruption
+159,Platform Revolution,Geoffrey Parker,Technology,How networked markets are transforming the economy and how to make them work for you
+160,The Second Machine Age,Erik Brynjolfsson,Technology,Work progress and prosperity in a time of brilliant technologies and automation
+161,Invisible Women,Caroline Criado Perez,Social Justice,How a world built for men by default leaves women out of data science medicine and public life
+162,Superior,Angela Saini,Science,The return of race science and why it keeps coming back despite being repeatedly debunked
+163,Inferior,Angela Saini,Science,How science got women wrong and the new research that is rewriting the story
+164,The Code Breaker,Walter Isaacson,Science,The story of Jennifer Doudna and the discovery of CRISPR gene editing technology
+165,The Premonition,Michael Lewis,Science,A small group of doctors and scientists fight to prepare America for a pandemic it refuses to see coming
+166,The Undoing Project,Michael Lewis,Science,The friendship between two psychologists whose work on human judgment changed the world
+167,Flash Boys,Michael Lewis,Business,How high-frequency traders rigged the American stock market and one man's effort to stop them
+168,The Big Short,Michael Lewis,Business,How a handful of outsiders predicted and profited from the 2008 financial crisis
+169,Moneyball,Michael Lewis,Business,How the Oakland Athletics used data analytics to compete against wealthier baseball teams
+170,The Chaos Machine,Max Fisher,Technology,How social media algorithms are rewiring human behavior and tearing societies apart
+171,Mindf*ck,Christopher Wylie,Technology,A Cambridge Analytica whistleblower exposes how personal data was weaponized to influence elections
+172,The Cult of We,Eliot Brown,Business,The rise and spectacular fall of WeWork and its charismatic and delusional founder Adam Neumann
+173,Bad Blood,John Carreyrou,Business,The secret lies behind the rise and fall of Theranos and Elizabeth Holmes
+174,No Filter,Sarah Frier,Technology,The inside story of Instagram and how it transformed business culture and fame
+175,Move Fast and Break Things,Jonathan Taplin,Technology,How Facebook Google and Amazon have cornered culture and undermined democracy
+176,The Coddling of the American Mind,Greg Lukianoff,Psychology,How good intentions and bad ideas are setting up a generation for failure
+177,Behave,Robert Sapolsky,Psychology,The biology of humans at our best and worst from neurons to culture
+178,The Body Keeps the Score,Bessel van der Kolk,Psychology,How trauma reshapes the body and brain and what can help survivors recover
+179,Lost Connections,Johann Hari,Psychology,Why depression and anxiety are really caused by disconnection and how to reconnect
+180,The Noonday Demon,Andrew Solomon,Psychology,An atlas of depression exploring the illness its treatments and its meaning
+181,Maybe You Should Talk to Someone,Lori Gottlieb,Psychology,A therapist goes to therapy herself and explores the stories we tell about our lives
+182,How Emotions Are Made,Lisa Feldman Barrett,Psychology,The secret life of the brain and why emotions are constructed rather than hardwired
+183,Emotional Intelligence,Daniel Goleman,Psychology,Why emotional intelligence matters more than IQ for success in life and work
+184,The Willpower Instinct,Kelly McGonigal,Psychology,What science tells us about self-control and how to improve it
+185,Quiet,Susan Cain,Psychology,The power of introverts in a world that can't stop talking
+186,The Comfort Book,Matt Haig,Philosophy,A collection of notes lists and stories written during difficult times as reminders that life is worth living
+187,Four Thousand Weeks,Oliver Burkeman,Philosophy,Time management for mortals who know they will never get everything done
+188,How to Live,Sarah Bakewell,Philosophy,Montaigne's essays and the twenty questions he tried to answer about how to live well
+189,The Order of Time,Carlo Rovelli,Science,A physicist explores the nature of time and why it feels different from how physics describes it
+190,Seven Brief Lessons on Physics,Carlo Rovelli,Science,A short and beautiful introduction to the most important ideas in modern physics
+191,The Feynman Lectures on Physics,Richard Feynman,Science,The legendary introduction to physics delivered by one of the greatest physicists of the twentieth century
+192,Longitude,Dava Sobel,History,The story of the clockmaker who solved the greatest scientific problem of the eighteenth century
+193,The Disappearing Spoon,Sam Kean,Science,Tales of madness love and the history of the world from the periodic table of elements
+194,The Immortality Key,Brian Muraresku,History,A classicist investigates the role of psychedelic rituals in the origins of Western civilization
+195,The Dawn of Everything,David Graeber,History,A new history of humanity that challenges everything we thought we knew about the origins of civilization
+196,Entanglements,Kim TallBear,Library Science,How indigenous data sovereignty and community-based research can reshape knowledge production
+197,The Pleasure of Finding Things Out,Richard Feynman,Science,A collection of short works by Feynman on science curiosity and the joy of discovery
+198,When We Cease to Understand the World,Benjamin Labatut,Fiction,Fictionalized accounts of scientists whose discoveries pushed them to the edge of madness
+199,The Midnight Library,Matt Haig,Fiction,A woman discovers a library between life and death where each book represents a life she could have lived
+200,Tomorrow and Tomorrow and Tomorrow,Gabrielle Zevin,Fiction,Two friends build a video game empire over decades navigating creativity love and the meaning of success
