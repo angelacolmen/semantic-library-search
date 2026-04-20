@@ -1,115 +1,90 @@
-# 📚 Semantic Library Search
+# Semantic Library Search
 
-An AI-powered library search engine that finds books by meaning, not just keywords. Built as a sample project for a AI/ML.
+An AI-powered library search tool that finds books by meaning, not just keywords. Built with sentence transformers, FAISS vector search, and Claude.
 
-## What Is Semantic Search?
+## Demo
 
-Traditional library search looks for exact keyword matches. If you search for "books about the cosmos" you might miss books that use the word "universe" or "astronomy" instead.
-
-Semantic search understands *meaning*. It knows that "cosmos", "universe", "space", and "astronomy" are all related concepts — and returns relevant results even when the exact words don't match.
+🤗 [Live on HuggingFace Spaces](https://huggingface.co/spaces/AngelaColmen/semantic-library-search)
 
 ## How It Works
 
-1. **Catalog Loading** — Book metadata is loaded from a CSV catalog file
-2. **Embedding Generation** — Each book description is converted into a mathematical "meaning fingerprint" using a Sentence Transformer AI model
-3. **Vector Indexing** — These fingerprints are stored in a FAISS index for fast similarity searching
-4. **Query Processing** — When a user searches, their query is converted into a fingerprint and compared against all books in the index
-5. **Results Returned** — The closest matching books are returned ranked by semantic similarity
+Traditional keyword search looks for exact word matches. Semantic search understands the *meaning* behind a query — so searching for "stories about survival against the odds" will surface books that match that theme even if those exact words never appear in the title or description.
 
-## Technologies Used
+Under the hood:
+1. Each book in the catalog is converted into a vector (a list of numbers representing its meaning) using a sentence transformer model
+2. When you search, your query is converted into a vector the same way
+3. FAISS finds the books whose vectors are closest to your query vector
+4. Optionally, Claude explains in plain language why those books match your search
 
-- **Python 3.14** — Core programming language
-- **Sentence Transformers** — AI model for generating semantic embeddings (all-MiniLM-L6-v2)
-- **FAISS** — Facebook AI Similarity Search for fast vector search
-- **FastAPI** — Modern Python web framework for the search API
-- **Uvicorn** — ASGI server for running the API
-- **Pandas** — Data manipulation and catalog management
-- **HTML/CSS/JavaScript** — Frontend search interface
+## Features
 
-## Project Structure
+- Semantic search across a 200-book catalog spanning fiction, science, history, social justice, technology, philosophy, psychology, and library science
+- Adjustable number of results (1–5)
+- Optional AI-powered explanations of why each result matched, powered by Claude
+- Example searches to get started
 
-```
-semantic-library-search/
-├── catalog.csv              # Library catalog with 20 books
-├── build_index.py           # Builds the AI search index
-├── search.py                # Command line search interface
-├── app.py                   # FastAPI search API
-├── index.html               # Web search interface
-├── library.index            # Generated FAISS vector index
-├── catalog_processed.csv    # Processed catalog data
-└── embeddings.pkl           # Saved book embeddings
-```
+## How to Use
 
-## Getting Started
-
-### Prerequisites
-- Python 3.9 or higher
-- pip package manager
-
-### Installation
-
-1. Clone the repository:
-```
-git clone https://github.com/angelacolmen/semantic-library-search.git
-cd semantic-library-search
-```
-
-2. Create and activate a virtual environment:
-```
-python -m venv venv
-venv\Scripts\activate  # Windows
-source venv/bin/activate  # Mac/Linux
-```
-
-3. Install dependencies:
-```
-pip install sentence-transformers faiss-cpu pandas fastapi uvicorn python-multipart
-```
-
-4. Build the search index:
-```
-python build_index.py
-```
-
-5. Start the API:
-```
-uvicorn app:app --reload
-```
-
-6. Open your browser and go to:
-```
-http://127.0.0.1:8000
-```
+1. Visit the [live demo](https://huggingface.co/spaces/AngelaColmen/semantic-library-search)
+2. Type a search query in plain language — no need for exact titles or keywords
+3. Optionally paste your [Anthropic API key](https://console.anthropic.com) to enable AI explanations
+4. Click **Search**
 
 ## Example Searches
 
-Try these searches to see semantic search in action:
+```
+books about artificial intelligence and society
+stories about race and justice in America
+women who made a difference in science
+how governments control people
+climate change and the future of the planet
+libraries and the organization of knowledge
+```
 
-- `books about space and the universe`
-- `stories about race and justice in America`
-- `women who made a difference in science`
-- `how governments control people`
-- `survival against the odds`
+## Tech Stack
 
-Notice how results appear even when the exact search words don't appear in the book titles or descriptions!
+- [Sentence Transformers](https://www.sbert.net/) — converts text into semantic vectors using the `all-MiniLM-L6-v2` model
+- [FAISS](https://github.com/facebookresearch/faiss) — fast vector similarity search by Meta
+- [Gradio](https://gradio.app/) — web interface
+- [Claude](https://anthropic.com) (claude-sonnet-4) — optional AI explanations via the Anthropic API
+- Python, pandas, numpy
 
-## Library Science Applications
+## Setup for Local Development
 
-This project demonstrates several real world library applications:
+**1. Clone the repo**
+```bash
+git clone https://github.com/angelacolmen/semantic-library-search
+cd semantic-library-search
+```
 
-- **Reference Services** — Patrons can describe their research need in plain language and receive relevant resource recommendations
-- **Collection Development** — Identify gaps in a collection by searching for topics and seeing what's missing
-- **Catalog Enhancement** — Improve discoverability of items that may be poorly described in traditional catalog records
-- **Accessibility** — Helps patrons who don't know the exact terminology used in library classification systems
+**2. Create a virtual environment**
+```bash
+python -m venv venv
+venv\Scripts\activate  # Windows
+```
 
-## Future Enhancements
+**3. Install dependencies**
+```bash
+pip install -r requirements.txt
+```
 
-- Connect to a live library catalog via API (e.g. WorldCat, Open Library)
-- Add Library of Congress Subject Heading suggestions
-- Implement user feedback to improve search results over time
-- Scale to larger collections using cloud based vector databases
-- Add multilingual search support
+**4. Build the search index**
+```bash
+python build_index.py
+```
 
-## Author
+**5. Run the app**
+```bash
+python app.py
+```
 
-Built by Angela Colmenares as a sample project for AI/ML.
+Then open `http://127.0.0.1:7860` in your browser.
+
+## Related Projects
+
+- [Citation Formatter](https://github.com/angelacolmen/citation-formatter)
+- [Subject Heading Generator](https://github.com/angelacolmen/subject-heading-generator)
+
+## License
+
+MIT
