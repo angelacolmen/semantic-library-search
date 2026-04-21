@@ -258,25 +258,30 @@ button.primary:active { transform: translateY(0) !important; }
 
 .prose, .md, .markdown-body, [data-testid="markdown"] {
     background: transparent !important;
-    color: var(--ink) !important;
     font-family: 'Source Sans 3', sans-serif !important;
     font-size: 0.95rem !important;
     line-height: 1.8 !important;
     font-weight: 300 !important;
 }
 
+.prose p, .md p, [data-testid="markdown"] p,
+.prose li, .md li, [data-testid="markdown"] li,
+.prose span, .md span, [data-testid="markdown"] span {
+    color: #1A1A1A !important;
+}
+
 [data-testid="markdown"] strong, .prose strong, .md strong {
     font-family: 'Playfair Display', serif !important;
     font-weight: 400 !important;
     font-size: 1.05rem !important;
-    color: var(--ink) !important;
+    color: #1A1A1A !important;
 }
 
 [data-testid="markdown"] em, .prose em, .md em {
     font-style: normal !important;
     font-size: 0.83rem !important;
     letter-spacing: 0.03em !important;
-    color: var(--ink-3) !important;
+    color: #767676 !important;
     font-weight: 400 !important;
 }
 
@@ -285,14 +290,14 @@ button.primary:active { transform: translateY(0) !important; }
     font-weight: 600 !important;
     letter-spacing: 0.1em !important;
     text-transform: uppercase !important;
-    color: var(--maroon) !important;
+    color: #5C1A1A !important;
     margin-bottom: 0.5rem !important;
     font-family: 'Source Sans 3', sans-serif !important;
 }
 
 [data-testid="markdown"] hr, .prose hr, .md hr {
     border: none !important;
-    border-top: 1px solid var(--rule-light) !important;
+    border-top: 1px solid #EAE7E0 !important;
     margin: 1.2rem 0 !important;
 }
 
