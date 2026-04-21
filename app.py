@@ -89,6 +89,9 @@ def search(query, num_results, api_key):
 
 
 css = """
+:root { color-scheme: light; }
+html { color-scheme: light; }
+
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;1,400&display=swap');
 
 :root {
@@ -265,10 +268,12 @@ button.primary:active { transform: translateY(0) !important; }
 }
 
 .prose p, .md p, [data-testid="markdown"] p,
-.prose li, .md li, [data-testid="markdown"] li,
-.prose span, .md span, [data-testid="markdown"] span {
+.prose li, .md li, [data-testid="markdown"] li {
     color: #1A1A1A !important;
 }
+
+.inst-bar-name { color: #F0E8E8 !important; }
+.inst-bar-badge { color: #C89A9A !important; }
 
 [data-testid="markdown"] strong, .prose strong, .md strong {
     font-family: 'Playfair Display', serif !important;
