@@ -17,13 +17,12 @@ df = pd.read_csv("catalog_processed.csv")
 print("Ready!")
 
 
-def get_claude_explanation(query, books):
+def get_claude_explanation(query, books, api_key):
     try:
-        api_key = os.environ.get("ANTHROPIC_API_KEY")
-        if not api_key:
-            return None
+        if not api_key or not api_key.strip().startswith("sk-"):
+            return "**Debug — key check failed:** key was empty or wrong format"
 
-        client = anthropic.Anthropic(api_key=api_key)
+        client = anthropic.Anthropic(api_key=api_key.strip())
 
         book_list = "\n".join([
             f"- {b['title']} by {b['author']} ({b['subject']}): {b['description']}"
@@ -31,7 +30,7 @@ def get_claude_explanation(query, books):
         ])
 
         message = client.messages.create(
-            model="claude-sonnet-4-20250514",
+            model="claude-haiku-4-5-20251001",
             max_tokens=400,
             messages=[
                 {
@@ -50,7 +49,6 @@ Write in a warm, helpful librarian voice. Do not use bullet points."""
         )
         return message.content[0].text
     except Exception as e:
-        print(f"Claude error: {e}")
         return None
 
 
@@ -74,7 +72,7 @@ def search(query, num_results, api_key):
             "description": book["description"]
         })
 
-    explanation = get_claude_explanation(query, books)
+    explanation = get_claude_explanation(query, books, api_key)
 
     results = ""
     if explanation:
